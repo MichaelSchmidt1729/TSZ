@@ -1,0 +1,21 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "sharepoint_connector",
+  "name_for_human": "SharePoint Connector",
+  "description_for_model": "Query documents and folders from a SharePoint site using Microsoft Graph API.",
+  "description_for_human": "Browse and read SharePoint folders and documents from thesafezonevr.sharepoint.com.",
+  "auth": {
+    "type": "oauth",
+    "authorization_url": "https://login.microsoftonline.com/0f9c55a5-b9ba-469e-9425-c7a178ea0af7/oauth2/v2.0/authorize",
+    "token_url": "https://login.microsoftonline.com/0f9c55a5-b9ba-469e-9425-c7a178ea0af7/oauth2/v2.0/token",
+    "client_url": null,
+    "scope": "https://graph.microsoft.com/.default"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://github.com/MichaelSchmidt1729/TSZ/blob/main/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "contact_email": "ms@thesafezone.eu.com",
+  "legal_info_url": "https://thesafezone.eu"
+}
